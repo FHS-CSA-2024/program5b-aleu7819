@@ -1,14 +1,37 @@
-public class CarTester {
-    
-    public Car addCar(){
-        //implment
+public car (String carName, int milesDriven, int gallonsUsed) {
+}
+        
+        
+        public String getName(){
+            
+        }
+        
+        
+        public void setName(String newname) {
+            
+        }
+        
+        public double calculateaverage(){
+            
+        }
+        
+        public String toString(){
+            
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     }
-    
-    public static void main(String[] args) {
-        //call addcar at lest twice and print car
-    }
-    
-    
-    
-    
 }
