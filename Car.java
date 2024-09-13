@@ -47,12 +47,25 @@ class Car {
         
         
         public double calculateAverage(){
-            return (milesDriven/gallonsUsed * 10) / 10.0;
+            return Math.round((double)milesDriven/gallonsUsed * 10) / 10.0;
         }
         
         public String toString(){
             return carName + " averaged " + calculateAverage() + " m/g ";
         }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         
     }
