@@ -14,7 +14,7 @@ class Car {
            // construct with no param
        }
        
-       public Car (String newName, double newGallons, double newMiles){
+       public Car (String newName, double newMiles, double newGallons){
            
            carName = newName;
            milesDriven = newMiles;
@@ -46,13 +46,14 @@ class Car {
         }
         
         
-        public double calculateAverage(){
-            return Math.round((double)milesDriven/gallonsUsed * 10) / 10.0;
-        }
+        public double calculateAverage() {
+            return Math.round((double)milesDriven / gallonsUsed * 10) / 10.0;
+       }
+
         
         public String toString(){
-            return carName + " averaged " + calculateAverage() + " m/g ";
-        }
+             return carName + " averaged " + calculateAverage() + " m/g ";
+       }
         
         
         
